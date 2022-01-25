@@ -1,0 +1,149 @@
+/*lo que siempre esta*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+
+/*base de todo*/
+
+body {
+    font-size: 1em;
+    color: rgb(0, 26, 73);
+    font-family: 'Dangrek', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Vast Shadow', cursive;
+}
+
+h1 h2 h3 h4 form legend {
+    color: rgb(0, 26, 73);
+    margin-bottom: 0.375em;
+    line-height: 1.2;
+}
+
+h1,
+.text--xxl {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+h2,
+.text--xl {
+    font-size: 45px;
+    font-weight: 900;
+}
+
+h3,
+.text--lg {
+    font-size: 1.25em;
+    font-weight: 700;
+}
+
+.text--sm,
+small {
+    font-size: 0.75em;
+}
+
+p {
+    line-height: 1.4
+}
+
+a {
+    text-decoration: none;
+    color: #00004d;
+    display: block;
+}
+
+b,
+strog {
+    font-weight: bold;
+}
+
+ul li,
+ol li {
+    line-height: 1.4;
+}
+
+em {
+    font-style: italic
+}
+
+u {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+figure {
+    margin: 0;
+}
+
+input,
+textarea {
+    border: 0;
+    border-radius: 20px;
+    background-color: #f6f7fb;
+    border: 1px solid #f6f7fb;
+    font-size: var(--tect-sm);
+    padding: 10px 15px;
+    display: block;
+    width: 100%;
+    outline: none;
+    box-shadow: 0px 0px 0px 0px #00000041;
+    transition: 0.2s;
+}
+
+input:focus,
+textarea:focus button:focus,
+a:focus {
+    box-shadow: 0px 0px 7px #ee194ef8;
+    outline: (0, 0, 1);
+}
+
+button {
+    border: 0;
+    background-color: transparent;
+    font-size: 20px;
+    color: #2222ff;
+    cursor: pointer;
+    font-family: 'Monofett', cursive;
+}
+
+.nav-link.selected:hover,
+button:hover {
+    background-color: rgb(132, 149, 187);
+}
+
+.nav-link.selected:active,
+.button:active {
+    background-color: blue;
+}
+
+.section-description {
+    max-width: 400px;
+}
+
+@media(max-width: 550px) {
+    h1 {
+        font-size: 45px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio personal de Ada Lovelace" />
+    <title>Portafolio NB</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Monofett&display=swap');
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles/styles.css" preload />
+    <link rel="stylesheet" href="styles/layout.css" preload />
+    <link rel="stylesheet" href="styles/header.css" preload />
+    <link rel="stylesheet" href="styles/footer.css" preload />
+    <link rel="stylesheet" href="styles/hola.css" preload />
+    <link rel="stylesheet" href="styles/quote.css" preload />
+    <link rel="stylesheet" href="styles/conocimientos.css" preload />
+    <link rel="stylesheet" href="styles/contacto.css" preload />
+    <link rel="stylesheet" href="styles/proyectos.css" preload />
+</head>
+
+<body>
+    <!--Empieza Header -->
+    <header>
+        <div class="menu-columna">
+            <nav class="nav-header">
+                <!-- Menú de navegación -->
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#hola" class="nav-link">HOLA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#conocimientos" class="nav-link">CONOCIMIENTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#proyectos" class="nav-link">PROYECTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacto" class="nav-link selected">CONTACTO</a>
+                    </li>
+                </ul>
+                <!-- Fin menú de navegación -->
+            </nav>
+            <button type="button" class="btn-abrir-menu" aria-controls="sidebar-menu" aria-expanded="false">
+          Menu <i class="barras" aria-hidden="true"></i>
+        </button>
+        </div>
+    </header>
+    <!-- fin header-->
+
+    <section class="sidebar-menu" id="sidebar-menu" aria-hidden="true">
+        <button class="btn-cerrar-menu" aria-label="Cerrar Menú" tabindex="-1">
+        <i class="tiempo" aria-hidden="true"></i>
+      </button>
+        <h2 class="sidebar-titulo">Secciones</h2>
+        <nav>
+            <!-- Menú de navegación -->
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#hola" class="nav-link" tabindex="-1">HOLA</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#conocimientos" class="nav-link" tabindex="-1">CONOCIMIENTOS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#proyectos" class="nav-link" tabindex="-1">PROYECTOS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contacto" class="nav-link" tabindex="-1">CONTACTO</a>
+                </li>
+            </ul>
+            <!-- Fin menú de navegación -->
+        </nav>
+    </section>
+
+    <!-- HOLA-->
+    <section class="section HOLA-sección" id="hola">
+        <div class="column contenido-princ">
+            <div class="hola-info">
+                <p class="saludo">¡Hola! Soy</p>
+                <h1 class="hola-nombre">Nazaret Basaldella</h1>
+                <p class="hola-descrpción">
+                    Desarrolladora, odontóloga, amante de los idiomas y de la música.
+                </p>
+                <a href="#proyectos" class="button">LO QUE HAGO</a>
+            </div>
+            <img src="imagenes\principal.jpg" class="hola-img" />
+        </div>
+    </section>
+    <!-- final hola -->
+
+    <!--mis conocimientos -->
+    <section class="section conocimientos-sección" id="conocimientos">
+        <div class="column content">
+            <h2 class="section-título">Mis conocimientos</h2>
+            <p class="conocimientos-descripción">
+                Gracias al curso de ADA y la práctica brindada. Sumando mis ganas de mejorar todos los días, estoy capacitada para manejar los siguientes contenidos.
+            </p>
+            <div class="grid conocimientos-grid">
+                <div class="conocimientos grid-item">
+                    <img src="imagenes\html.png" class="hola-img" class="conocimientos-icon">
+                    <p class="conocimientos-title">HTML 5</p>
+                </div>
+                <div class="conocimientos grid-item">
+                    <img src="imagenes\css.png" class="hola-img" class="conocimientos-icon">
+                    <p class="conocimientos-title">CSS 3</p>
+                </div>
+                <div class="conocimientos grid-item">
+                    <img src="imagenes\sass.png" class="hola-img" class="conocimientos-icon">
+                    <p class="conocimientos-title">Sass</p>
+                </div>
+                <div class="conocimientos grid-item">
+                    <img src="imagenes\js.png" class="hola-img" class="conocimientos-icon">
+                    <p class="conocimientos-title">JavaScript</p>
+                </div>
+                <div class="conocimientos grid-item">
+                    <img src="imagenes\reat.png" class="hola-img" class="conocimientos-icon">
+                    <p class="conocimientos-title">React</p>
+                </div>
+                <div class="conocimientos grid-item">
+                    <img src="imagenes\git.png" class="hola-img" class="conocimientos-icon">
+                    <p class="conocimientos-title">GIT</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fin de mis conocimientos -->
+
+    <!-- proyectos -->
+    <section class="section frase-sección">
+        <div class="column content">
+            <i class="fas fa-angle-double-left"></i>
+            <blockquote>
+                <p class="quote">
+                    No hay nada más terrible que el hábito de la duda. La duda separa a las personas. Es un veneno que se desintegra amistades y rompe las relaciones agradables. Es una espina que irrita y daña; es una espada que mata.
+                </p>
+            </blockquote>
+            <i class="fas fa-angle-double-right" id="comillas"></i>
+            <h2 class="frase-autor">Buda</h2>
+        </div>
+    </section>
+    <section class="section proyecto-sección" id="proyectos">
+        <div class="column content">
+            <h2 class="section-título">Mis proyectos</h2>
+            <p class="section-descripción">
+                En esta sección se puede encontrar los diferentes proyectos que fui realizando en el curso de ADA.
+            </p>
+            <!-- Grilla de projectos -->
+            <div class="grid proyectos">
+                <a href="index.html" target="_blank" rel="noopener noreferrer" class="proyecto" data-language="html-css">
+                    <img src="imagenes\porfolio.png" alt="" class="proyecto-thumb" />
+                    <p class="proyecto-nombre">Portfolio</p>
+                </a>
+
+                <a href="#" target="_blank" rel="noopener noreferrer" class="proyecto" data-language="javascript">
+                    <img src="imagenes\memes.jpg" alt="" class="proyecto-thumb" />
+                    <p class="proyecto-nombre">Generador de memes</p>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="proyecto" data-language="javascript">
+                    <img src="imagenes\match.jpg" alt="" class="proyecto-thumb" />
+                    <p class="proyecto-nombre">Match 3</p>
+                </a>
+
+                <a href="#" target="_blank" rel="noopener noreferrer" class="proyecto" data-language="javascript">
+                    <img src="imagenes\gastos.jpg" alt="" class="proyecto-thumb" />
+                    <p class="proyecto-nombre">Controlador de gastos</p>
+                </a>
+
+                <a href="#" target="_blank" rel="noopener noreferrer" class="proyecto" data-language="javascript">
+                    <img src="imagenes\calendario.jpg" alt="" class="proyecto-thumb" />
+                    <p class="proyecto-nombre">Administrador de reuniones</p>
+                </a>
+
+                <a href="#" target="_blank" rel="noopener noreferrer" class="proyecto" data-language="react">
+                    <img src="imagenes\app.jpg" alt="" class="proyecto-thumb" />
+                    <p class="proyecto-nombre">Todo app</p>
+                </a>
+
+                <a href="#" target="_blank" rel="noopener noreferrer" class="proyecto" data-language="react">
+                    <img src="imagenes\peliculas.jpg" alt="" class="proyecto-thumb" />
+                    <p class="proyecto-nombre">Buscador de películas</p>
+                </a>
+            </div>
+            <!-- Fin grid projectos -->
+        </div>
+    </section>
+    <!--FIN PROYECTOS -->
+
+    <!-- CONTACTO -->
+    <section class="section contacto-sección" id="contacto">
+        <div class="column">
+            <div class="contacto">
+                <section class="contacto-column">
+                    <h2 class="section-título">Contactame</h2>
+                    <p class="section-descripción">
+                        No dude en contactarme si tiene alguna consulta. Preferentemente en los siguientes horarios: De lunes a viernes: 9:00hs-20:00hs. Sabados: 9:00hs-12:00hs. (Puede contactarme vía e-mail en cualquier momento).
+                    </p>
+                    <!-- Poner links href -->
+                    <section aria-label="Links de redes sociales">
+                        <ul class="contacto-social-links">
+                            <!--TWT-->
+                            <li class="contacto-social-item">
+                                <a href="https://twitter.com/nazaretbasaldel" class="contacto-social-link twitter-link" aria-label="Twitter">
+                                    <i class="fab fa-twitter"></i> @nachibasaldella</a>
+                            </li>
+                            <!--GIT-->
+                            <li class="contacto-social-item">
+                                <a href="https://github.com/NachiBasaldella" class="contacto-social-link github-link" aria-label="Github">
+                                    <i class="fab fa-git"></i> NachiBasaldella</a>
+                            </li>
+                            <!--linkedin-->
+                            <li class="contacto-social-item">
+                                <a href="https://www.linkedin.com/in/basaldella-nazaret-720864164/?locale=en_US" class="contacto-social-link linkedin-link" aria-label="Linkedin">
+                                    <i class="fab fa-linkedin"></i> Nazaret Basaldella</a>
+                            </li>
+                            <!--GMAIL-->
+                            <li class="contacto-social-item">
+                                <a href="https://www.google.com/intl/es-419/gmail/about/" class="contacto-social-link email-link" aria-label="Email">
+                                    <i class="fas fa-envelope-square"></i> nazaretbasaldel@gmail.com</a>
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+                <section class="contacto-column">
+                    <h2 class="section-título">Escribime</h2>
+                    <!--pregunta de discord-->
+                    <form action="#" method="POST" class="contacto-form">
+                        <div class="input-name-wrapper">
+                            <div class="form-control">
+                                <label for="firstname">Nombre *</label>
+                                <input type="text" name="Nombre" id="firtsname" class="input-firtsname input-control" placeholder="p. ej.: Nazaret" aria-label="Nombre" required />
+                                <i class="far fa-times-circle icon-invalid" aria-hidden="true"></i>
+                                <i class="far fa-check-circle icon-valid" aria-hidden="true"></i>
+                            </div>
+                            <div class="form-control">
+                                <label for="lastname">Apellido *</label>
+                                <input type="text" name="Apellido" id="lastname" class="input-lastname input-control" placeholder="p. ej.: Basaldella" aria-label="Apellido" required />
+                                <i class="far fa-times-circle icon-invalid" aria-hidden="true"></i>
+                                <i class="far fa-check-circle icon-valid" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="form-control">
+                            <label for="email">Email *</label>
+                            <input type="email" name="Email" id="email" class="input-control" placeholder="p. ej.: nazaretbasaldella@gmail.com" aria-label="Email" required />
+                            <i class="far fa-times-circle icon-invalid" aria-hidden="true"></i>
+                            <i class="far fa-check-circle icon-valid" aria-hidden="true"></i>
+                        </div>
+                        <div class="form-control">
+                            <label for="message">Mensaje *</label>
+                            <textarea name="Mensaje" id="message" cols="30" rows="10" class="input-control" placeholder="Escriba un mensaje aquí" aria-label="Mensaje" required></textarea>
+                            <i class="far fa-times-circle icon-invalid" aria-hidden="true"></i>
+                            <i class="far fa-check-circle icon-valid" aria-hidden="true"></i>
+                        </div>
+                        <button type="submit" class="contacto-send-btn button">
+                Enviar
+              </button>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </section>
+    <!-- FIN DE CONTACTO -->
+
+    <!-- INICIO FOOTER -->
+    <footer>
+        <!-- Navegación footer PÁGINA-->
+        <nav class="footer-nav">
+            <ul class="footer-nav-menu">
+                <li class="footer-nav-item">
+                    <a href="#hola" class="footer-nav-link">HOLA</a>
+                </li>
+                <li class="footer-nav-item">
+                    <a href="#conocimientos" class="footer-nav-link">CONOCIMIENTOS</a>
+                </li>
+                <li class="footer-nav-item">
+                    <a href="#proyectos" class="footer-nav-link">PROYECTOS</a>
+                </li>
+                <li class="footer-nav-item">
+                    <a href="#contacto" class="footer-nav-link">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Navegación footer SOCIAL MEDIA -->
+        <ul class="footer-social-links">
+            <!--TWT-->
+            <li class="footer-social-item">
+                <a href="https://twitter.com/nazaretbasaldel" class="footer-social-link twitter-link" aria-label="Twitter">
+                    <i class="fab fa-twitter footer-social-icon"></i ></a>
+             </li>
+            <!--GIT-->
+            <li class="footer-social-item">
+                <a href="https://github.com/NachiBasaldella" class="footer-social-link github-link" aria-label="Github">
+                    <i class="fab fa-github-alt footer-social-icon"></i></a>
+            </li>
+            <!--LINKEDIN-->
+            <li class="footer-social-item">
+                <a href="https://www.linkedin.com/in/basaldella-nazaret-720864164/?locale=en_US" class="footer-social-link linkedin-link" aria-label="Linkedin">
+                    <i class="fab fa-linkedin-in footer-social-icon"></i></a>
+            </li>
+            <!--GMAIL-->
+            <li class="footer-social-item">
+                <a href="https://www.google.com/intl/es-419/gmail/about/" class="footer-social-link email-link" aria-label="Email">
+                    <i class="fas fa-envelope footer-social-icon"></i></a>
+            </li>
+        </ul>
+        Hecho con pasión por Nazaret Basaldella
+    </footer>
+    <!-- Final del footer -->
+</body>
+
+</html>
