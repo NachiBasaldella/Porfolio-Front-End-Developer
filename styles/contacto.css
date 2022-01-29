@@ -189,4 +189,7 @@ textarea:not(:placeholder-shown):invalid~.icon-invalid {
     .input-name-wrapper .form-control:nth-of-type(2) {
         margin-left: 0;
     }
+    .contacto-social-links {
+        flex-direction: column;
+    }
 }

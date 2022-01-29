@@ -19,8 +19,7 @@ body {
     font-size: 1em;
     color: rgb(0, 26, 73);
     font-family: 'Dangrek', cursive;
-    font-family: 'Libre Baskerville', serif;
-    font-family: 'Vast Shadow', cursive;
+    font-family: 'Source Serif 4', sans-serif;
 }
 
 h1 h2 h3 h4 form legend {
@@ -122,7 +121,7 @@ button {
     font-size: 20px;
     color: #2222ff;
     cursor: pointer;
-    font-family: 'Monofett', cursive;
+    font-family: 'Source Serif 4', sans-serif;
 }
 
 .nav-link.selected:hover,
